@@ -25,7 +25,8 @@
     <string name="your_task">Ваше задание </string>
     <string name="attainment">Достижения</string>
     <string name="coins">Монет:</string>
-
+    <string name="challenge">Вы готовы принять вызов?</string>
+    <string name="done">Завершить?</string>
 
 
 </resources>
