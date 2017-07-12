@@ -1,10 +1,12 @@
 package com.example.elvir.culturalchallenge.splash;
 
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.ProgressBar;
+import android.widget.TextView;
 
 import com.example.elvir.culturalchallenge.MainActivity;
 import com.example.elvir.culturalchallenge.R;
@@ -48,6 +50,13 @@ public class SplashActivity extends AppCompatActivity {
                 finish();
             }
         }, 5 * 1000);
+
+
+        TextView textViewSplash = (TextView) findViewById(R.id.tv_splash);
+        Typeface tf = Typeface.createFromAsset(getAssets(), "fonts/Oswald-ExtraLight.ttf");
+        textViewSplash.setTypeface(tf);
+        TextView textView = (TextView) findViewById(R.id.tv_splash_2);
+        textView.setTypeface(tf);
     }
 
     // обновление ProgressBar

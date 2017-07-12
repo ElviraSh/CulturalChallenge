@@ -34,13 +34,28 @@
         />
 
     <TextView
+        android:id="@+id/tv_splash"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/profile_image"
         android:text="@string/art"
+        android:textAllCaps="false"
         android:gravity="center"
         android:textColor="@color/colorText"
-        android:textSize="20sp"
+        android:textSize="30sp"
+        />
+
+
+    <TextView
+        android:id="@+id/tv_splash_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_splash"
+        android:text="@string/hello"
+        android:textAllCaps="false"
+        android:gravity="center"
+        android:textColor="@color/colorText"
+        android:textSize="30sp"
         />
 </RelativeLayout>
 
