@@ -9,6 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:fontFamily="sans-serif-condensed"
         android:textAlignment="center"
         android:text="@string/hello"
         android:textStyle="bold"
@@ -33,6 +34,7 @@
             android:padding="10dp">
             <TextView
                 android:layout_weight="5"
+                android:fontFamily="sans-serif-condensed"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 />
@@ -47,6 +49,7 @@
 
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-condensed"
                     android:text="@string/Folkner"
                     android:gravity="right"
                     android:textColor="@color/colorText"
@@ -56,6 +59,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-condensed"
                     android:text="@string/author_Folkner"
                     android:gravity="right"
                     android:textColor="@color/colorText"
@@ -71,6 +75,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/form"
+        android:fontFamily="sans-serif-condensed"
         android:textColor="@color/colorText"
         android:textStyle="bold"
         android:gravity="center"
@@ -98,10 +103,11 @@
             android:layout_width="245dp"
             android:layout_height="40dp"
             android:hint="@string/name"
+            android:fontFamily="sans-serif-condensed"
             android:background="@drawable/edit_text_style"
             android:layout_marginBottom="15dp"
             android:layout_gravity="center"
-            android:textColorHint="@color/colorText"
+            android:textColorHint="@color/colorTextWhite"
             android:textSize="15sp"
             android:textStyle="italic|bold"
 
@@ -110,27 +116,30 @@
             android:layout_width="245dp"
             android:layout_height="40dp"
             android:hint="@string/login"
+            android:fontFamily="sans-serif-condensed"
             android:background="@drawable/edit_text_style"
             android:layout_marginBottom="15dp"
             android:layout_gravity="center"
-            android:textColorHint="@color/colorText"
+            android:textColorHint="@color/colorTextWhite"
             android:textSize="15sp"
             android:textStyle="italic|bold" />
         <EditText
             android:layout_width="245dp"
             android:layout_height="40dp"
             android:hint="@string/city"
+            android:fontFamily="sans-serif-condensed"
             android:background="@drawable/edit_text_style"
             android:layout_marginBottom="15dp"
             android:layout_gravity="center"
-            android:textColorHint="@color/colorText"
+            android:textColorHint="@color/colorTextWhite"
             android:textSize="15sp"
             android:textStyle="italic|bold" />
         <EditText
             android:layout_width="245dp"
             android:layout_height="40dp"
             android:hint="@string/password"
-            android:textColorHint="@color/colorText"
+            android:fontFamily="sans-serif-condensed"
+            android:textColorHint="@color/colorTextWhite"
             android:inputType="textPassword"
             android:background="@drawable/edit_text_style"
             android:layout_gravity="center"

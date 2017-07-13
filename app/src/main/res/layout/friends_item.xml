@@ -9,7 +9,6 @@
        android:layout_width="match_parent"
        android:layout_height="wrap_content"
        android:layout_margin="10dp"
-
        app:cardCornerRadius="10dp"
        app:cardBackgroundColor="@color/colorBack"
        app:cardElevation="5dp">
@@ -33,6 +32,7 @@
                android:layout_marginTop="10dp"
                android:layout_marginLeft="15dp"
                android:layout_width="match_parent"
+               android:fontFamily="sans-serif-condensed"
                android:textAllCaps="true"
                android:textColor="@color/colorTextWhite"
                android:textStyle="bold"
@@ -45,6 +45,7 @@
                        android:textColor="@color/colorTextWhite"
                        android:layout_marginTop="4dp"
                        android:layout_marginLeft="15dp"
+                       android:fontFamily="sans-serif-condensed"
                        android:layout_width="match_parent"
                        android:textAllCaps="true"
                        android:layout_height="wrap_content" />
@@ -62,6 +63,7 @@
                    android:layout_weight="1"
                    android:layout_marginLeft="15dp"
                    android:layout_width="match_parent"
+                   android:fontFamily="sans-serif-condensed"
                    android:textStyle="italic"
                    android:gravity="bottom|right"
                    android:textColor="@color/colorTextWhite"
@@ -79,6 +81,7 @@
                android:textStyle="italic|bold"
                android:layout_marginRight="3dp"
                android:layout_width="match_parent"
+               android:fontFamily="sans-serif-condensed"
                android:layout_height="wrap_content"
                android:textColor="@color/colorTextWhite"/>
 
@@ -89,6 +92,7 @@
                    android:gravity="left"
                    android:text="баллов"
                    android:textStyle="italic"
+                   android:fontFamily="sans-serif-condensed"
                    android:layout_width="match_parent"
                    android:layout_height="wrap_content"
                    android:textColor="@color/colorTextWhite"/>

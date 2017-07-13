@@ -11,6 +11,7 @@
         android:orientation="horizontal">
     <TextView
         android:layout_weight="1"
+        android:fontFamily="sans-serif-condensed"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="right"
@@ -28,13 +29,14 @@
 
     <TextView
         android:layout_width="match_parent"
+        android:fontFamily="sans-serif-condensed"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:textColor="@color/colorText"
         android:textStyle="bold"
         android:textAllCaps="true"
         android:textSize="18sp"
-        android:text="rgrreg"/>
+        />
 
     <de.hdodenhof.circleimageview.CircleImageView
         android:layout_width="200dp"
@@ -72,6 +74,7 @@
             android:layout_height="wrap_content"
             android:textColorHint="@color/colorText"
             android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed"
             android:textSize="15sp"
             android:layout_margin="10dp"
             android:hint="@string/your_task"
@@ -84,6 +87,7 @@
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:background="@drawable/btn_profile"
+        android:fontFamily="sans-serif-condensed"
         android:alpha="0.6"
         android:layout_gravity="center"
         android:layout_margin="10dp"
